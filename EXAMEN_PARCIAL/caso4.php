@@ -3,7 +3,7 @@ $contrasenaAlmacenada = "ALEE123";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nombre"];
     $contrasena1 = $_POST["contrasena1"];
-    if ($contrasena1 === $contrasenaAlmacenada) {
+    if ($contrasena1 ===   $contrasenaAlmacenada) {
         echo "";
         ?>
         <!DOCTYPE html>
